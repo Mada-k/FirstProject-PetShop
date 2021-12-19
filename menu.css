@@ -90,4 +90,36 @@ p:hover {
     }
 }
 
+@media (max-width: 467px) {
+    p {
+        display: none;
+    }
+
+    .flex-itemcard {
+        margin-top: 70%; 
+    }
+
+    #menu-h {
+        background-color: rgb(83, 223, 192);
+        height: 40%;
+    }
+
+}
+
+@media (max-width: 313px) {
+    p {
+        display: none;
+    }
+
+    .flex-itemcard {
+        margin-top: 100%; 
+    }
+
+    #menu-h {
+        background-color: rgb(83, 223, 192);
+        height: 65%;
+    }
+
+}
+
 
